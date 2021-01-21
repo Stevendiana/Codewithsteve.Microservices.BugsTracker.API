@@ -1,5 +1,5 @@
-﻿using Myairops.Tech.Test.Microservices.ClientDatabase.API.Data;
-using Myairops.Tech.Test.Microservices.ClientDatabase.API.Data.Repositories;
+﻿using Codewithsteve.Microservices.BugsTracker.API.Data;
+using Codewithsteve.Microservices.BugsTracker.API.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Codewithsteve.Microservices.BugsTracker.Models;
 
-namespace Myairops.Tech.Test.Microservices.ClientDatabase.API.Repositories
+namespace Codewithsteve.Microservices.BugsTracker.API.Repositories
 {
     public class BugRepository : Repository<Bug>, IBugRepository
     {

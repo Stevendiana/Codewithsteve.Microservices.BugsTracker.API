@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Myairops.Tech.Test.Microservices.ClientDatabase.API;
+using Codewithsteve.Microservices.BugsTracker.API;
 
 namespace Codewithsteve.Microservices.BugsTrackerAPI.Migrations
 {

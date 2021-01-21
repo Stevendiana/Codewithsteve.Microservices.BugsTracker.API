@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Myairops.Tech.Test.Microservices.ClientDatabase.API.Data.Repositories;
+using Codewithsteve.Microservices.BugsTracker.API.Data.Repositories;
 using AutoMapper;
-using Myairops.Tech.Test.Microservices.ClientDatabase.API.Controllers.Resources;
+using Codewithsteve.Microservices.BugsTracker.API.Controllers.Resources;
 using System.IO;
 using Codewithsteve.Microservices.BugsTracker.Models;
 
-namespace Myairops.Tech.Test.Microservices.ClientDatabase.API.Controllers
+namespace Codewithsteve.Microservices.BugsTracker.API.Controllers
 {
     [Produces("application/json")]
     [Route("[controller]")]

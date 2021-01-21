@@ -1,11 +1,11 @@
-﻿using Myairops.Tech.Test.Microservices.ClientDatabase.API.Data.Repositories;
+﻿using Codewithsteve.Microservices.BugsTracker.API.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Myairops.Tech.Test.Microservices.ClientDatabase.API.Repositories
+namespace Codewithsteve.Microservices.BugsTracker.API.Repositories
 {
     public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {

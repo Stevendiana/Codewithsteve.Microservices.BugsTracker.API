@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Codewithsteve.Microservices.BugsTracker.Models;
 using System;
 
-namespace Myairops.Tech.Test.Microservices.ClientDatabase.API
+namespace Codewithsteve.Microservices.BugsTracker.API
 {
     public class ApplicationDbContext : DbContext
     {

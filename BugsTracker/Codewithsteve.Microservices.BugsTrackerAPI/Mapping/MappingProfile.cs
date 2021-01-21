@@ -1,12 +1,9 @@
 ﻿using AutoMapper;
-using Myairops.Tech.Test.Microservices.ClientDatabase.API.Controllers.Resources;
+using Codewithsteve.Microservices.BugsTracker.API.Controllers.Resources;
 using Codewithsteve.Microservices.BugsTracker.Models;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
-namespace Myairops.Tech.Test.Microservices.ClientDatabase.API.Mapping
+namespace Codewithsteve.Microservices.BugsTracker.API.Mapping
 {
     public class MappingProfile : Profile
     {

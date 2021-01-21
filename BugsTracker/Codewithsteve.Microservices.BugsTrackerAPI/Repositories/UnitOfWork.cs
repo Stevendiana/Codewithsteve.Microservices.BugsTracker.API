@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using System.Threading.Tasks;
-using Myairops.Tech.Test.Microservices.ClientDatabase.API.Data.Repositories;
-using Myairops.Tech.Test.Microservices.ClientDatabase.API.Data;
+using Codewithsteve.Microservices.BugsTracker.API.Data.Repositories;
+using Codewithsteve.Microservices.BugsTracker.API.Data;
 
-namespace Myairops.Tech.Test.Microservices.ClientDatabase.API.Repositories
+namespace Codewithsteve.Microservices.BugsTracker.API.Repositories
 {
     public class UnitOfWork : IUnitOfWork
     {

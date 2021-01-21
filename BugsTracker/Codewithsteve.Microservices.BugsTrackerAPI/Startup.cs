@@ -1,25 +1,14 @@
 using AutoMapper;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.AzureAD.UI;
-using Microsoft.AspNetCore.Authorization;
+using Codewithsteve.Microservices.BugsTracker.API;
+using Codewithsteve.Microservices.BugsTracker.API.Data;
+using Codewithsteve.Microservices.BugsTracker.API.Data.Repositories;
+using Codewithsteve.Microservices.BugsTracker.API.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using Myairops.Tech.Test.Microservices.ClientDatabase.API;
-using Myairops.Tech.Test.Microservices.ClientDatabase.API.Data;
-using Myairops.Tech.Test.Microservices.ClientDatabase.API.Data.Repositories;
-using Myairops.Tech.Test.Microservices.ClientDatabase.API.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Codewithsteve.Microservices.BugsTrackerAPI
 {
