@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using Myairops.Tech.Test.Microservices.ClientDatabase.API.Controllers.Resources;
-using Myairops.Tech.Test.ClientDatabase.Models;
+using Codewithsteve.Microservices.BugsTracker.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

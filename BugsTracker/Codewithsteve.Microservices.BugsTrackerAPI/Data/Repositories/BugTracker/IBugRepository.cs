@@ -1,4 +1,4 @@
-﻿using Myairops.Tech.Test.ClientDatabase.Models;
+﻿using Codewithsteve.Microservices.BugsTracker.Models;
 using Myairops.Tech.Test.Microservices.ClientDatabase.API.Data.Repositories;
 using System;
 using System.Collections.Generic;

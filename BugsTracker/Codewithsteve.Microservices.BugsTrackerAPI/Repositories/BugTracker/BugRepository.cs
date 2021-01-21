@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Myairops.Tech.Test.ClientDatabase.Models;
+using Codewithsteve.Microservices.BugsTracker.Models;
 
 namespace Myairops.Tech.Test.Microservices.ClientDatabase.API.Repositories
 {

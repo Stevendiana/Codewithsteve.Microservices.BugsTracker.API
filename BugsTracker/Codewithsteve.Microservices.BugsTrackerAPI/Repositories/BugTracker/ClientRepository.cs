@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Myairops.Tech.Test.ClientDatabase.Models;
+using Codewithsteve.Microservices.BugsTracker.Models;
 using Myairops.Tech.Test.Microservices.ClientDatabase.API.Data;
 using Myairops.Tech.Test.Microservices.ClientDatabase.API.Data.Repositories;
 using System;
